@@ -1,0 +1,26 @@
+{
+    "name": "prgtw/enum-methods-behavior",
+    "description": "Propel2 behavior for creating convenience methods for columns of type ENUM",
+    "type": "propel-behavior",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomasz Wójcik",
+            "email": "tomasz.prgtw.wojcik@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^5.3, ^7.0",
+        "propel/propel": "~2.0.0-dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "prgTW\\Propel\\Behavior\\EnumMethodsBehavior": "./"
+        }
+    },
+    "target-dir": "prgTW/Propel/Behavior/EnumMethodsBehavior",
+    "extra": {
+        "name": "enum_methods",
+        "class": "\\prgTW\\Propel\\Behavior\\EnumMethodsBehavior\\EnumMethodsBehavior"
+    }
+}
